@@ -1,0 +1,6 @@
+.wrapper {
+	font-family: var(--font);
+	font-weight: 800;
+	font-size: 56px;
+	color: var(--color-1);
+}

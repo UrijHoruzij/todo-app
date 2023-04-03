@@ -1,0 +1,18 @@
+.wrapper {
+	width: 24px;
+	height: 24px;
+	border: 2px solid var(--input);
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.check {
+	stroke: var(--color-2);
+	stroke-width: 2;
+	stroke-linecap: 'round';
+	stroke-linejoin: 'round';
+}
+.input {
+	display: none;
+}
