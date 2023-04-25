@@ -19,10 +19,9 @@ jobs:
         run: yarn install
       - name: Build
         run: npm run export
-     - name: Deploy
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: main
           folder: out
-          clean: true 
-
+          clean: true
